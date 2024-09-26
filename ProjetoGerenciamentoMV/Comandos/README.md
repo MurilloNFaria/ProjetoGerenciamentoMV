@@ -2,10 +2,15 @@
 MViewGerenciamento
     ProjetoGerenciamentoMV/
         ProjetoGerenciamentoMV/
+            bin/
+                debug/
+                    net8.0/
             Controllers/
                 HomeController.cs
             Models/
                 ErrorViewModel.cs
+            obj/
+                debug/
             Properties/
                 launchSettings.json
             Views/
@@ -16,8 +21,12 @@ MViewGerenciamento
                     _ViewImports.cshtml
                     _ViewStart.cshtml
             wwwroot/
+                img/
+                    LogoMV.png
+                    Usuario.png
                 css/
                     site.css
+                    usuario.css
                 js/
                     site.js
                 lib/
@@ -25,6 +34,8 @@ MViewGerenciamento
                     jquery/
                     jquery-validation/
                     jquery-validation-unobtrusive
+                templates/
+                    login.html
                 favicon.ico
             appsettins.Development.json
             appsettins.json

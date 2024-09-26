@@ -22,6 +22,11 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Account}/{action=Login}/{id?}");
+
+app.UseFileServer(new FileServerOptions
+{
+    DefaultFilesOptions = { DefaultFileNames = new List<string> { "templates/login.html" } }
+});
 
 app.Run();
